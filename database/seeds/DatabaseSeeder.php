@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call(Default_SetMenuItemSeeder::class);
         $this->call(Default_ExtraItemSeeder::class);
         $this->call(Default_ShiftSeeder::class);
-        $this->call(Default_ShiftUserSeeder::class);	
+        $this->call(Default_ShiftUserSeeder::class);    
+        $this->call(Default_OrderTypeSeeder::class);	
     }
 }
